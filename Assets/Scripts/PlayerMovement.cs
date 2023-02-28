@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject playerCollider;
-    float defaultSpeed = 10f;
-    float defaultRotateSpeed = 0.05f;
+    [SerializeField] float defaultSpeed = 10f;
+    [SerializeField] float defaultRotateSpeed = 0.5f;
     Vector3 movement;
     [SerializeField] Rigidbody playerRigidbody;
 
@@ -30,12 +29,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (Input.GetKey(KeyCode.A)) { 
-            transform.Rotate(0, -(defaultRotateSpeed), 0);
+            transform.Rotate(0, -(defaultRotateSpeed) * Time.deltaTime, 0);
+            //transform.Translate(Vector3.left * Time.deltaTime * defaultSpeed);
+            //transform.rotation = Quaternion.Euler(new Vector3(0, -defaultRotateSpeed * Time.deltaTime,0));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(0, defaultRotateSpeed, 0);
+            transform.Rotate(0, defaultRotateSpeed * Time.deltaTime, 0);
+            //transform.Translate(Vector3.right * Time.deltaTime * defaultSpeed);
+            //var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, desiredRot);
+            //transform.rotation = Quaternion.Euler(new Vector3(0, defaultRotateSpeed * Time.deltaTime,0));
         }
+        
 
         if(Input.GetKeyDown(KeyCode.Space) && gameObject.GetComponentInChildren<PlayerCollisionDetector>().onGround)
         {
