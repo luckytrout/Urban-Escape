@@ -32,7 +32,7 @@ public class PlayerMovement1 : MonoBehaviour
         Move();
 
         if(Input.GetKeyDown(KeyCode.Mouse0)){
-            Interact();
+            StartCoroutine(Interact());
         }
     }
 
@@ -93,8 +93,11 @@ public class PlayerMovement1 : MonoBehaviour
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
     }
 
-    private void Interact(){
+    private IEnumerator Interact(){
+        anim.SetLayerWeight(anim.GetLayerIndex("Interact Layer"), 1);
         anim.SetTrigger("Interact");
+
+        yield return new WaitForSeconds(0.9f);
     }
 
 }
