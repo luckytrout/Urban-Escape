@@ -30,10 +30,6 @@ public class PlayerMovement1 : MonoBehaviour
 
     private void Update() {
         Move();
-
-        if(Input.GetKeyDown(KeyCode.Mouse0)){
-            StartCoroutine(Interact());
-        }
     }
 
     private void Move() {
@@ -42,6 +38,8 @@ public class PlayerMovement1 : MonoBehaviour
         if(isGrounded && velocity.y < 0){
             velocity.y = -2f;
         }
+
+        //isGrounded = true;
 
         float moveZ = Input.GetAxis("Vertical");
 
@@ -62,12 +60,18 @@ public class PlayerMovement1 : MonoBehaviour
             Idle();
             }
 
-            moveDirection *= moveSpeed;
+            //moveDirection *= moveSpeed;
+
+            if(Input.GetKeyDown(KeyCode.Mouse0)){
+                StartCoroutine(Interact());
+            }
 
             if(Input.GetKeyDown(KeyCode.Space)){
-                Jump();
+                StartCoroutine(Jump());
             }
         }
+
+        moveDirection *= moveSpeed;
 
         controller.Move(moveDirection* Time.deltaTime);
 
@@ -89,8 +93,12 @@ public class PlayerMovement1 : MonoBehaviour
         anim.SetFloat("Speed", 1, 0.1f, Time.deltaTime);
     }
 
-    private void Jump(){
+    private IEnumerator Jump(){
+        anim.SetLayerWeight(anim.GetLayerIndex("Jump Layer"), 1);
+        anim.SetTrigger("Jump");
+        //moveSpeed = runSpeed;
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+        yield return new WaitForSeconds(0.9f);
     }
 
     private IEnumerator Interact(){
