@@ -66,7 +66,7 @@ public class PlayerMovement1 : MonoBehaviour
                 StartCoroutine(Interact());
             }
 
-            if(Input.GetKeyDown(KeyCode.Space)){
+            if(Input.GetKeyDown(KeyCode.Space) && (moveDirection != Vector3.zero)){
                 StartCoroutine(Jump());
             }
         }
