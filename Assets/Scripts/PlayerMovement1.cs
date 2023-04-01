@@ -13,8 +13,17 @@ public class PlayerMovement1 : MonoBehaviour
     private Vector3 velocity;
 
     [SerializeField] private bool isGrounded;
+    private bool isFinish;
+    private bool isDie;
+    private bool isRespawning = false;
+
+    private float respawnDelay = 0;
+    private float time;
+
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundMask;
+    [SerializeField] private LayerMask levelFinishMask;
+    [SerializeField] private LayerMask dieMask;
     [SerializeField] private float gravity;
 
     [SerializeField] private float jumpHeight;
@@ -22,18 +31,54 @@ public class PlayerMovement1 : MonoBehaviour
     //REFERENCES
     private CharacterController controller;
     private Animator anim;
+    [SerializeField] private GameObject spawnPoint;
+    [SerializeField] SceneChanger sceneChanger;
+    [SerializeField] PlayerStats playerStats;
 
     private void Start() {
+        isRespawning = false;
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
+        transform.position = spawnPoint.transform.position;
     }
 
     private void Update() {
-        Move();
+        time = time + 1f * Time.deltaTime;
+        
+        if(!isRespawning){
+            Move();
+        }
+
+        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
+        isDie = Physics.CheckSphere(transform.position, groundCheckDistance, dieMask);
+
+        if(isDie && !isRespawning){
+            isRespawning = true;
+            playerStats.substractLife();
+            transform.position = spawnPoint.transform.position;
+            respawnDelay = time + 1f;
+            //transform.position.y -= 1;
+            moveDirection =  new Vector3(0, 0, 0);
+        }
+
+        if(time >= respawnDelay){
+            time = 0;
+            respawnDelay = 0;
+            isRespawning = false;
+        }
+
+        if (playerStats.playerLives <= 0){
+                sceneChanger.LoadGameOver();
+        }
     }
 
     private void Move() {
-        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
+        isFinish = Physics.CheckSphere(transform.position, groundCheckDistance, levelFinishMask);
+        
+
+        if(isFinish){
+            sceneChanger.LoadNextLevel();
+        }
 
         if(isGrounded && velocity.y < 0){
             velocity.y = -2f;
