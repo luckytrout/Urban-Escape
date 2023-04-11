@@ -19,4 +19,12 @@ public class SceneChanger : MonoBehaviour
     public void LoadGameOver(){
         SceneManager.LoadSceneAsync("GameOverScene");
     }
+
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+        Application.Quit();
+    }
 }

@@ -56,9 +56,10 @@ public class PlayerMovement1 : MonoBehaviour
             isRespawning = true;
             playerStats.substractLife();
             transform.position = spawnPoint.transform.position;
-            respawnDelay = time + 1f;
+            respawnDelay = time + 0.1f;
             //transform.position.y -= 1;
-            moveDirection =  new Vector3(0, 0, 0);
+            //moveDirection =  new Vector3(0, 0, 0);
+            isGrounded = true;
         }
 
         if(time >= respawnDelay){
