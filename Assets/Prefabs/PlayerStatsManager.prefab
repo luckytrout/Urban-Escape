@@ -45,6 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 0
-  playerLives: 0
+  playerLives: 3
   scoreText: {fileID: 0}
   livesText: {fileID: 0}
