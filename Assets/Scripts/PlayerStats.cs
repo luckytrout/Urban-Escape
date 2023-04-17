@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
+    // local player stats in StatManager need to be public for access
     public int playerScore;
     public int playerLives;
 
@@ -38,6 +39,9 @@ public class PlayerStats : MonoBehaviour
             playerLives -= 1;
             SavedVariables.lives = playerLives;
             getLives();
+
+            SavedVariables.score -= 5;
+            getScore();
         }
         Debug.Log(SavedVariables.lives);
     }
