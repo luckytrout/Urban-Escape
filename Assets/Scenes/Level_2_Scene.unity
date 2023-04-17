@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 50185555}
   m_Layer: 0
   m_Name: CollectItem (12)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,7 +262,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50185553}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 50666690}
   m_Layer: 0
   m_Name: CollectItem (26)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,7 +360,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50666688}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 60425178}
   m_Layer: 0
   m_Name: CollectItem (33)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,7 +458,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60425176}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 74705234}
   m_Layer: 0
   m_Name: CollectItem (27)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,7 +556,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74705232}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 97429998}
   m_Layer: 0
   m_Name: CollectItem (35)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -659,7 +659,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97429996}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 165264928}
   m_Layer: 0
   m_Name: CollectItem (7)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -923,7 +923,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165264926}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -993,7 +993,7 @@ GameObject:
   - component: {fileID: 186017552}
   m_Layer: 0
   m_Name: CollectItem (36)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1021,7 +1021,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186017550}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1091,7 +1091,7 @@ GameObject:
   - component: {fileID: 202987471}
   m_Layer: 0
   m_Name: SpecialItem (3)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1119,7 +1119,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202987469}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 206440010}
   m_Layer: 0
   m_Name: CollectItem (53)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1216,7 +1216,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206440008}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1745,7 +1745,7 @@ GameObject:
   - component: {fileID: 287037884}
   m_Layer: 0
   m_Name: CollectItem (6)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1773,7 +1773,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287037882}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1843,7 +1843,7 @@ GameObject:
   - component: {fileID: 288307024}
   m_Layer: 0
   m_Name: CollectItem (41)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1871,7 +1871,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288307022}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -2481,7 +2481,7 @@ GameObject:
   - component: {fileID: 479422425}
   m_Layer: 0
   m_Name: CollectItem (48)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2509,7 +2509,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479422423}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -2862,7 +2862,7 @@ GameObject:
   - component: {fileID: 532810152}
   m_Layer: 0
   m_Name: CollectItem (50)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2890,7 +2890,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532810150}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -2960,7 +2960,7 @@ GameObject:
   - component: {fileID: 554745499}
   m_Layer: 0
   m_Name: CollectItem (4)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2988,7 +2988,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554745497}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -3155,7 +3155,7 @@ GameObject:
   - component: {fileID: 591629141}
   m_Layer: 0
   m_Name: CollectItem (45)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3183,7 +3183,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591629139}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -3253,7 +3253,7 @@ GameObject:
   - component: {fileID: 604109557}
   m_Layer: 0
   m_Name: CollectItem (28)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3281,7 +3281,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604109555}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -3351,7 +3351,7 @@ GameObject:
   - component: {fileID: 610925877}
   m_Layer: 0
   m_Name: CollectItem (44)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3379,7 +3379,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610925875}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -3547,7 +3547,7 @@ GameObject:
   - component: {fileID: 641030800}
   m_Layer: 0
   m_Name: SpecialItem
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3575,7 +3575,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641030798}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3644,7 +3644,7 @@ GameObject:
   - component: {fileID: 674881255}
   m_Layer: 0
   m_Name: CollectItem (34)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3672,7 +3672,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674881253}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -3840,7 +3840,7 @@ GameObject:
   - component: {fileID: 703824712}
   m_Layer: 0
   m_Name: CollectItem (11)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3868,7 +3868,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703824710}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -4032,7 +4032,7 @@ GameObject:
   - component: {fileID: 711204585}
   m_Layer: 0
   m_Name: CollectItem (2)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4060,7 +4060,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711204583}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -4130,7 +4130,7 @@ GameObject:
   - component: {fileID: 716018793}
   m_Layer: 0
   m_Name: CollectItem (56)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4158,7 +4158,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716018791}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -4506,7 +4506,7 @@ GameObject:
   - component: {fileID: 768955548}
   m_Layer: 0
   m_Name: CollectItem (30)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4534,7 +4534,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768955546}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -4701,7 +4701,7 @@ GameObject:
   - component: {fileID: 772356305}
   m_Layer: 0
   m_Name: CollectItem (42)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4729,7 +4729,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772356303}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -5090,7 +5090,7 @@ GameObject:
   - component: {fileID: 812565261}
   m_Layer: 0
   m_Name: SpecialItem (6)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5118,7 +5118,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812565259}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5187,7 +5187,7 @@ GameObject:
   - component: {fileID: 817704036}
   m_Layer: 0
   m_Name: CollectItem (20)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5215,7 +5215,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817704034}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -5285,7 +5285,7 @@ GameObject:
   - component: {fileID: 840764684}
   m_Layer: 0
   m_Name: CollectItem (5)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5313,7 +5313,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840764682}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -5647,7 +5647,7 @@ GameObject:
   - component: {fileID: 923620959}
   m_Layer: 0
   m_Name: CollectItem (54)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5675,7 +5675,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923620957}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -5925,7 +5925,7 @@ GameObject:
   - component: {fileID: 990653108}
   m_Layer: 0
   m_Name: CollectItem (32)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5953,7 +5953,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990653106}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -6023,7 +6023,7 @@ GameObject:
   - component: {fileID: 996628277}
   m_Layer: 0
   m_Name: CollectItem (17)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6051,7 +6051,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996628275}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -6219,7 +6219,7 @@ GameObject:
   - component: {fileID: 1007018861}
   m_Layer: 0
   m_Name: CollectItem (8)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6247,7 +6247,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007018859}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -6595,7 +6595,7 @@ GameObject:
   - component: {fileID: 1072842015}
   m_Layer: 0
   m_Name: CollectItem (38)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6623,7 +6623,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072842013}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -6946,7 +6946,7 @@ GameObject:
   - component: {fileID: 1117782035}
   m_Layer: 0
   m_Name: CollectItem (51)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6974,7 +6974,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117782033}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -7531,7 +7531,7 @@ GameObject:
   - component: {fileID: 1185241201}
   m_Layer: 0
   m_Name: CollectItem (24)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7559,7 +7559,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185241199}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -7931,7 +7931,7 @@ GameObject:
   - component: {fileID: 1245726727}
   m_Layer: 0
   m_Name: SpecialItem (4)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7959,7 +7959,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245726725}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8125,7 +8125,7 @@ GameObject:
   - component: {fileID: 1250338060}
   m_Layer: 0
   m_Name: CollectItem (52)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8153,7 +8153,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250338058}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -8223,7 +8223,7 @@ GameObject:
   - component: {fileID: 1252633568}
   m_Layer: 0
   m_Name: SpecialItem (2)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8251,7 +8251,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252633566}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8320,7 +8320,7 @@ GameObject:
   - component: {fileID: 1274897912}
   m_Layer: 0
   m_Name: CollectItem (31)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8348,7 +8348,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274897910}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -8844,7 +8844,7 @@ GameObject:
   - component: {fileID: 1346265970}
   m_Layer: 0
   m_Name: CollectItem (9)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8872,7 +8872,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346265968}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -8942,7 +8942,7 @@ GameObject:
   - component: {fileID: 1366421903}
   m_Layer: 0
   m_Name: CollectItem (46)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8970,7 +8970,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366421901}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -9468,7 +9468,7 @@ GameObject:
   - component: {fileID: 1418440476}
   m_Layer: 0
   m_Name: CollectItem
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9496,7 +9496,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418440474}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -9663,7 +9663,7 @@ GameObject:
   - component: {fileID: 1432037865}
   m_Layer: 0
   m_Name: CollectItem (19)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9691,7 +9691,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432037863}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10041,7 +10041,7 @@ GameObject:
   - component: {fileID: 1460633836}
   m_Layer: 0
   m_Name: CollectItem (37)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10069,7 +10069,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460633834}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10139,7 +10139,7 @@ GameObject:
   - component: {fileID: 1482346907}
   m_Layer: 0
   m_Name: CollectItem (39)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10167,7 +10167,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482346905}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10431,7 +10431,7 @@ GameObject:
   - component: {fileID: 1547362216}
   m_Layer: 0
   m_Name: CollectItem (18)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10459,7 +10459,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547362214}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10529,7 +10529,7 @@ GameObject:
   - component: {fileID: 1555526077}
   m_Layer: 0
   m_Name: CollectItem (21)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10557,7 +10557,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555526075}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10627,7 +10627,7 @@ GameObject:
   - component: {fileID: 1560739972}
   m_Layer: 0
   m_Name: CollectItem (23)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10655,7 +10655,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560739970}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10822,7 +10822,7 @@ GameObject:
   - component: {fileID: 1584483550}
   m_Layer: 0
   m_Name: CollectItem (47)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10850,7 +10850,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584483548}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -10920,7 +10920,7 @@ GameObject:
   - component: {fileID: 1617377764}
   m_Layer: 0
   m_Name: CollectItem (58)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10948,7 +10948,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617377762}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11018,7 +11018,7 @@ GameObject:
   - component: {fileID: 1624561340}
   m_Layer: 0
   m_Name: CollectItem (60)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11046,7 +11046,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624561338}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11116,7 +11116,7 @@ GameObject:
   - component: {fileID: 1635722405}
   m_Layer: 0
   m_Name: CollectItem (10)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11144,7 +11144,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635722403}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11214,7 +11214,7 @@ GameObject:
   - component: {fileID: 1658888707}
   m_Layer: 0
   m_Name: CollectItem (16)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11242,7 +11242,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658888705}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11312,7 +11312,7 @@ GameObject:
   - component: {fileID: 1673666642}
   m_Layer: 0
   m_Name: CollectItem (49)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11340,7 +11340,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673666640}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11410,7 +11410,7 @@ GameObject:
   - component: {fileID: 1689624111}
   m_Layer: 0
   m_Name: CollectItem (14)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11438,7 +11438,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689624109}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11508,7 +11508,7 @@ GameObject:
   - component: {fileID: 1709867849}
   m_Layer: 0
   m_Name: CollectItem (13)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11536,7 +11536,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709867847}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11606,7 +11606,7 @@ GameObject:
   - component: {fileID: 1711132141}
   m_Layer: 0
   m_Name: CollectItem (3)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11634,7 +11634,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711132139}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -11704,7 +11704,7 @@ GameObject:
   - component: {fileID: 1730438695}
   m_Layer: 0
   m_Name: CollectItem (59)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11732,7 +11732,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730438693}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12079,7 +12079,7 @@ GameObject:
   - component: {fileID: 1821044300}
   m_Layer: 0
   m_Name: CollectItem (57)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12107,7 +12107,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821044298}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12177,7 +12177,7 @@ GameObject:
   - component: {fileID: 1842934087}
   m_Layer: 0
   m_Name: CollectItem (25)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12205,7 +12205,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842934085}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12470,7 +12470,7 @@ GameObject:
   - component: {fileID: 1853406125}
   m_Layer: 0
   m_Name: CollectItem (15)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12498,7 +12498,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853406123}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12568,7 +12568,7 @@ GameObject:
   - component: {fileID: 1853676123}
   m_Layer: 0
   m_Name: CollectItem (55)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12596,7 +12596,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853676121}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12666,7 +12666,7 @@ GameObject:
   - component: {fileID: 1853695782}
   m_Layer: 0
   m_Name: SpecialItem (1)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12694,7 +12694,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853695780}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -12763,7 +12763,7 @@ GameObject:
   - component: {fileID: 1883976702}
   m_Layer: 0
   m_Name: CollectItem (1)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12791,7 +12791,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883976700}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -12861,7 +12861,7 @@ GameObject:
   - component: {fileID: 1890210512}
   m_Layer: 0
   m_Name: CollectItem (43)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12889,7 +12889,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890210510}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -13707,7 +13707,7 @@ GameObject:
   - component: {fileID: 1968842076}
   m_Layer: 0
   m_Name: SpecialItem (5)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13735,7 +13735,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968842074}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -13804,7 +13804,7 @@ GameObject:
   - component: {fileID: 1993336064}
   m_Layer: 0
   m_Name: CollectItem (22)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13832,7 +13832,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993336062}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -14084,7 +14084,7 @@ GameObject:
   - component: {fileID: 2051330111}
   m_Layer: 0
   m_Name: CollectItem (40)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14112,7 +14112,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051330109}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -14409,7 +14409,7 @@ GameObject:
   - component: {fileID: 2114061885}
   m_Layer: 0
   m_Name: CollectItem (29)
-  m_TagString: Untagged
+  m_TagString: Collectable 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14437,7 +14437,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114061883}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2

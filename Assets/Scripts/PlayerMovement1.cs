@@ -154,4 +154,11 @@ public class PlayerMovement1 : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
     }
 
+    private void OnTriggerEnter(Collider other) {
+        if(other.transform.tag == "Collectable 1"){
+            playerStats.addScore(1);
+            Destroy(other.transform.gameObject);
+        }
+    }
+
 }

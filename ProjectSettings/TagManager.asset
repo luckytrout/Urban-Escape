@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - BattleCamera
+  - Collectable 1
   layers:
   - Default
   - TransparentFX

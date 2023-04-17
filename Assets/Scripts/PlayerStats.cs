@@ -43,6 +43,6 @@ public class PlayerStats : MonoBehaviour
     }
 
     public void getLives(){
-       livesText.text = "Lives: " + SavedVariables.lives.ToString();
+       livesText.text = "Lives: " + (SavedVariables.lives).ToString();
     }
 }
