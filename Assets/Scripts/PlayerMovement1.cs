@@ -14,7 +14,6 @@ public class PlayerMovement1 : MonoBehaviour
 
     [SerializeField] private bool isGrounded;
     private bool isFinish;
-    private bool isDie;
     private bool isRespawning = false;
 
     private float respawnDelay = 0;
@@ -35,6 +34,9 @@ public class PlayerMovement1 : MonoBehaviour
     [SerializeField] SceneChanger sceneChanger;
     [SerializeField] PlayerStats playerStats;
 
+    [HideInInspector]
+    public bool isDie;
+
     private void Start() {
         isRespawning = false;
         controller = GetComponent<CharacterController>();
@@ -53,13 +55,7 @@ public class PlayerMovement1 : MonoBehaviour
         isDie = Physics.CheckSphere(transform.position, groundCheckDistance, dieMask);
 
         if(isDie && !isRespawning){
-            isRespawning = true;
-            playerStats.substractLife();
-            transform.position = spawnPoint.transform.position;
-            respawnDelay = time + 0.1f;
-            //transform.position.y -= 1;
-            //moveDirection =  new Vector3(0, 0, 0);
-            isGrounded = true;
+            KillPlayer();
         }
 
         if(time >= respawnDelay){
@@ -159,6 +155,16 @@ public class PlayerMovement1 : MonoBehaviour
             playerStats.addScore(1);
             Destroy(other.transform.gameObject);
         }
+    }
+
+    public void KillPlayer(){
+        isRespawning = true;
+        playerStats.substractLife();
+        transform.position = spawnPoint.transform.position;
+        respawnDelay = time + 0.1f;
+        //transform.position.y -= 1;
+        //moveDirection =  new Vector3(0, 0, 0);
+        isGrounded = true;
     }
 
 }

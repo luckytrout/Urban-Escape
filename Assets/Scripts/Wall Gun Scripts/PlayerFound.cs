@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerFound : MonoBehaviour
 {
-    public GameObject wallGun;
+    [SerializeField] private GameObject wallGun;
 
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         
     }
@@ -16,15 +16,18 @@ public class PlayerFound : MonoBehaviour
     void Update()
     {
         
-    }
+    }*/
 
     private void OnTriggerStay(Collider other) {
+        // As long as Player stays within the ScanZone
         if(other.transform.tag == "Player"){
+            // Send the referenced variable the current position of the player
             wallGun.GetComponent<ShootProjectile>().playerPosition = other.transform.position;
         }
     }
 
     private void OnTriggerExit(Collider other) {
+        // When Player exists collider, reset position of referenced variable (player is not here)
         if(other.transform.tag == "Player"){
             wallGun.GetComponent<ShootProjectile>().playerPosition = new Vector3(0, 0, 0);
         }
