@@ -155,6 +155,16 @@ public class PlayerMovement1 : MonoBehaviour
             playerStats.addScore(1);
             Destroy(other.transform.gameObject);
         }
+
+        if(other.transform.tag == "EnemyTop"){
+            playerStats.addScore(5);
+            Destroy(other.transform.parent.gameObject);
+        }
+
+        if(other.transform.tag == "EnemySpikes"){
+            KillPlayer();
+            Destroy(other.transform.parent.gameObject);
+        }
     }
 
     public void KillPlayer(){
