@@ -357,6 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3505b589db36a4484cf35cb4758bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _waypointPath: {fileID: 679820724}
+  _speed: 2
 --- !u!65 &1894840680
 BoxCollider:
   m_ObjectHideFlags: 0
