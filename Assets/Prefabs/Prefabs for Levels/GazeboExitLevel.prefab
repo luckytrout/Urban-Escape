@@ -71,13 +71,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -3784664326699873598, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f5586ab88176dbd4caef0ffc7a4cd09b, type: 2}
     - target: {fileID: -1760714182489039777, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
       propertyPath: m_Name
-      value: GazeboFinishLevel
+      value: GazeboExitLevel
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
       propertyPath: m_Layer
@@ -87,6 +91,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4370951913967234905, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f5586ab88176dbd4caef0ffc7a4cd09b, type: 2}
+    - target: {fileID: 7202271454713460447, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2341cf08b8a078845967367a41dca2f0, type: 2}
+    - target: {fileID: 9194509242015492025, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f5586ab88176dbd4caef0ffc7a4cd09b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3faa631a891dcd147898cb99bbe0df33, type: 3}
 --- !u!1 &4202428739653851991 stripped

@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - BattleCamera
   - Collectable 1
+  - EnemyTop
+  - EnemySpikes
   layers:
   - Default
   - TransparentFX
