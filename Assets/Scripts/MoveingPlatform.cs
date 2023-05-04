@@ -31,6 +31,7 @@ public class MoveingPlatform : MonoBehaviour
         float elapstedPersent = _elapsed / _timeto;
         elapstedPersent = Mathf.SmoothStep(0, 1, elapstedPersent);
         transform.position = Vector3.Lerp(_previous.position, _target.position, elapstedPersent);
+        //transform.rotation = Quarternion.Lerp(_previous.rotation, _target.rotation, elapstedPersent);
 
         if(elapstedPersent >= 1)
         {
