@@ -158,30 +158,18 @@ public class PlayerMovement1 : MonoBehaviour
 
         if(other.transform.tag == "EnemyTop"){
             playerStats.addScore(5);
-            /*foreach(Transform child in other.transform.parent.transform){
-                child.gameObject.AddComponent<ExplosionScript>();
-                StartCoroutine(child.transform.GetComponent<ExplosionScript>().SplitMesh(true));
-            }*/
-
-            foreach(Transform child in other.transform.parent.transform){
-                //Vector3 explosionPos = new Vector3(child.transform.position.x + UnityEngine.Random.Range(-100f, 100f), child.transform.position.y + UnityEngine.Random.Range(30f, 50f), child.transform.position.z + UnityEngine.Random.Range(-20f, 20f));
-                /*Vector3 explosionPos = new Vector3(child.transform.position.x + UnityEngine.Random.Range(-50f, 50f), child.transform.position.y + UnityEngine.Random.Range(30f, 50f), child.transform.position.z + 50f);
-                Physics.IgnoreCollision(child.gameObject.GetComponent<Collider>(), transform.GetComponent<Collider>());
-                child.gameObject.GetComponent<Collider>().isTrigger = false;
-                child.gameObject.AddComponent<Rigidbody>().AddExplosionForce(UnityEngine.Random.Range(4000, 5000), explosionPos, 500);*/
+            foreach(Transform child in other.transform.parent){
                 ExplodeObject(child.gameObject);
             }
-            //other.transform.gameObject.AddComponent<ExplosionScript>();
-            //StartCoroutine(other.transform.GetComponent<ExplosionScript>().SplitMesh(true));
-            //other.transform.AddComponent<ExplosionScript>();
-            
-            //Destroy(other.transform.parent.gameObject);
+            StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
         }
 
         if(other.transform.tag == "EnemySpikes"){
+            foreach(Transform child in other.transform.parent){
+                ExplodeObject(child.gameObject);
+            }
             KillPlayer();
-            ExplodeObject(other.transform.gameObject);
-            //Destroy(other.transform.parent.gameObject);
+            StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
         }
     }
 
@@ -200,8 +188,12 @@ public class PlayerMovement1 : MonoBehaviour
         Vector3 explosionPos = new Vector3(obj.transform.position.x + UnityEngine.Random.Range(-1f, 1f), obj.transform.position.y + UnityEngine.Random.Range(-1f, 0f), obj.transform.position.z + UnityEngine.Random.Range(-1f, 1f));
         Physics.IgnoreCollision(obj.GetComponent<Collider>(), transform.GetComponent<Collider>());
         obj.GetComponent<Collider>().isTrigger = false;
-        //obj.AddComponent<Rigidbody>().AddExplosionForce(UnityEngine.Random.Range(4000, 5000), explosionPos, 100);
         obj.AddComponent<Rigidbody>().AddExplosionForce(500, explosionPos, 30);
+    }
+
+    private IEnumerator DestroyTimer(GameObject obj){
+        yield return new WaitForSeconds(6f);
+        Destroy(obj);
     }
 
 }
