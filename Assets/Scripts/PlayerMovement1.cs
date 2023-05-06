@@ -159,15 +159,23 @@ public class PlayerMovement1 : MonoBehaviour
         if(other.transform.tag == "EnemyTop"){
             playerStats.addScore(5);
             foreach(Transform child in other.transform.parent){
-                ExplodeObject(child.gameObject);
+                if(child.gameObject.GetComponent<ParticleSystem>() != null){
+                }else{
+                    ExplodeObject(child.gameObject);
+                }
             }
             StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
         }
 
         if(other.transform.tag == "EnemySpikes"){
             foreach(Transform child in other.transform.parent){
-                ExplodeObject(child.gameObject);
+                if(child.gameObject.GetComponent<ParticleSystem>() != null){
+                    child.gameObject.GetComponent<ParticleSystem>().Play();
+                }else{
+                    ExplodeObject(child.gameObject);
+                }
             }
+            //other.transform.parent.GetComponentInChildren<ParticleSystem>().Play();
             KillPlayer();
             StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
         }
