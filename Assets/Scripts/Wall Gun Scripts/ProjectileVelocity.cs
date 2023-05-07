@@ -37,7 +37,6 @@ public class ProjectileVelocity : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
-        Debug.Log(other.gameObject);
 
         // If the projectile hits the ground or the bottom of the level
         if(other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("Die")){
