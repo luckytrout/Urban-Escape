@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 321295346}
   - component: {fileID: 321295345}
   - component: {fileID: 321295344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1048,7 +1048,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waypointPath: {fileID: 227808633}
-  _speed: 1
+  _speed_slow: 1
+  _speed_fast: 3
 --- !u!65 &321295345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3673,7 +3674,7 @@ GameObject:
   - component: {fileID: 1052015401}
   - component: {fileID: 1052015400}
   - component: {fileID: 1052015399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3693,7 +3694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waypointPath: {fileID: 812240668}
-  _speed: 3
+  _speed_slow: 1
+  _speed_fast: 3
 --- !u!65 &1052015400
 BoxCollider:
   m_ObjectHideFlags: 0
