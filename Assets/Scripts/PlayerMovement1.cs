@@ -196,11 +196,15 @@ public class PlayerMovement1 : MonoBehaviour
         Vector3 explosionPos = new Vector3(obj.transform.position.x + UnityEngine.Random.Range(-1f, 1f), obj.transform.position.y + UnityEngine.Random.Range(-1f, 0f), obj.transform.position.z + UnityEngine.Random.Range(-1f, 1f));
         Physics.IgnoreCollision(obj.GetComponent<Collider>(), transform.GetComponent<Collider>());
         obj.GetComponent<Collider>().isTrigger = false;
-        obj.AddComponent<Rigidbody>().AddExplosionForce(500, explosionPos, 30);
+        if(obj.GetComponent<Rigidbody>() == null){
+            obj.AddComponent<Rigidbody>().AddExplosionForce(500, explosionPos, 30);
+        }else{
+            obj.GetComponent<Rigidbody>().AddExplosionForce(500, explosionPos, 30);
+        }
     }
 
     private IEnumerator DestroyTimer(GameObject obj){
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(5f);
         Destroy(obj);
     }
 

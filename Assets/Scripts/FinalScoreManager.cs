@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using TMPro;
 
-public class ResetScript : MonoBehaviour
+public class FinalScoreManager : MonoBehaviour
 {
+
+    public TMP_Text finalScoretext;
 
     // Start is called before the first frame update
     void Start()
     {
+        finalScoretext.text = "Final Score: " + SavedVariables.score.ToString();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        SavedVariables.score = 0;
-        SavedVariables.lives = 3;
     }
-
 }

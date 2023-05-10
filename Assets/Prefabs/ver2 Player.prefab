@@ -84,6 +84,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 6204852482175467490, guid: e54de0e4dea67c743ac5f3fec6b82445, type: 3}
   sceneChanger: {fileID: 3646024858005149978, guid: 7a7699dc3a0546040aa5dfcb975b1797, type: 3}
   playerStats: {fileID: 382233394950205470, guid: d50da8ccb0c7d384faa3b46462a05fa2, type: 3}
+  isDie: 0
 --- !u!143 &1270171693791818240
 CharacterController:
   m_ObjectHideFlags: 0
