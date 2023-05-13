@@ -254,7 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 120345707}
-  - component: {fileID: 120345706}
+  - component: {fileID: 120345708}
   m_Layer: 0
   m_Name: CanvasManager
   m_TagString: Untagged
@@ -262,20 +262,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &120345706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120345705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 494c832d71f784b42a4093744be80374, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectLevelCanvas: {fileID: 1702654100}
-  creditsCanvas: {fileID: 616326922}
 --- !u!4 &120345707
 Transform:
   m_ObjectHideFlags: 0
@@ -291,6 +277,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &120345708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120345705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0911842b1b5fe3c4f911fe97db29baf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectLevelCanvas: {fileID: 0}
+  creditsCanvas: {fileID: 0}
 --- !u!1 &126751450
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,7 +866,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 120345706}
+      - m_Target: {fileID: 120345708}
         m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
         m_MethodName: toggleCanvas
         m_Mode: 2
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 120345706}
+      - m_Target: {fileID: 120345708}
         m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
         m_MethodName: toggleCanvas
         m_Mode: 2
@@ -4328,7 +4328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waypointPath: {fileID: 1609667252}
-  _speed: 1
+  _speed_slow: 0
+  _speed_fast: 0
 --- !u!4 &1448939617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1229864374136220721, guid: d8ad43c93d5aee446996b8e183a7eda1, type: 3}

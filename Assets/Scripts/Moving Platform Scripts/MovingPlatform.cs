@@ -8,7 +8,10 @@ public class MovingPlatform : MonoBehaviour
     private WaypointPath _waypointPath;
 
     [SerializeField]
-    private float _speed;
+    private float _speed_slow;
+
+    [SerializeField]
+    private float _speed_fast;
 
     private int _targetIndex;
     private Transform _previous;
@@ -48,7 +51,8 @@ public class MovingPlatform : MonoBehaviour
         _elapsed = 0;
 
         float _distance = Vector3.Distance(_previous.position, _target.position);
-        _timeto = _distance/_speed;
+        float speed = Random.Range(_speed_slow, _speed_fast);
+        _timeto = _distance/speed;
     }
 
     private void OnTriggerEnter(Collider other) 

@@ -152,19 +152,30 @@ public class PlayerMovement1 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if(other.transform.tag == "Collectable 1"){
+            other.transform.tag = "Untagged";
             playerStats.addScore(1);
-            Destroy(other.transform.gameObject);
+            Debug.Log(other.transform.name);
+            foreach(Transform child in other.transform){
+                Debug.Log(child.gameObject.GetComponent<ParticleSystem>() != null);
+                if(child.gameObject.GetComponent<ParticleSystem>() != null){
+                    child.gameObject.GetComponent<ParticleSystem>().Play();
+                }else{
+                    Destroy(child.gameObject);
+                }
+            }
+            StartCoroutine(DestroyTimer(other.transform.gameObject, 2f));
         }
 
         if(other.transform.tag == "EnemyTop"){
             playerStats.addScore(5);
             foreach(Transform child in other.transform.parent){
                 if(child.gameObject.GetComponent<ParticleSystem>() != null){
+                    child.gameObject.GetComponent<ParticleSystem>().Play();
                 }else{
                     ExplodeObject(child.gameObject);
                 }
             }
-            StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
+            StartCoroutine(DestroyTimer(other.transform.parent.gameObject, 5f));
         }
 
         if(other.transform.tag == "EnemySpikes"){
@@ -177,7 +188,7 @@ public class PlayerMovement1 : MonoBehaviour
             }
             //other.transform.parent.GetComponentInChildren<ParticleSystem>().Play();
             KillPlayer();
-            StartCoroutine(DestroyTimer(other.transform.parent.gameObject));
+            StartCoroutine(DestroyTimer(other.transform.parent.gameObject, 5f));
         }
     }
 
@@ -203,8 +214,8 @@ public class PlayerMovement1 : MonoBehaviour
         }
     }
 
-    private IEnumerator DestroyTimer(GameObject obj){
-        yield return new WaitForSeconds(5f);
+    private IEnumerator DestroyTimer(GameObject obj, float delay){
+        yield return new WaitForSeconds(delay);
         Destroy(obj);
     }
 
