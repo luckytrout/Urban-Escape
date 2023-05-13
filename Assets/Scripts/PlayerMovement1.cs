@@ -151,12 +151,10 @@ public class PlayerMovement1 : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if(other.transform.tag == "Collectable 1"){
+        if(other.transform.tag == "Collectable 2"){
             other.transform.tag = "Untagged";
             playerStats.addScore(1);
-            Debug.Log(other.transform.name);
             foreach(Transform child in other.transform){
-                Debug.Log(child.gameObject.GetComponent<ParticleSystem>() != null);
                 if(child.gameObject.GetComponent<ParticleSystem>() != null){
                     child.gameObject.GetComponent<ParticleSystem>().Play();
                 }else{
@@ -164,6 +162,12 @@ public class PlayerMovement1 : MonoBehaviour
                 }
             }
             StartCoroutine(DestroyTimer(other.transform.gameObject, 2f));
+        }
+
+        if(other.transform.tag == "Collectable 1"){
+            other.transform.tag = "Untagged";
+            playerStats.addScore(1);
+            Destroy(other.transform.gameObject);
         }
 
         if(other.transform.tag == "EnemyTop"){

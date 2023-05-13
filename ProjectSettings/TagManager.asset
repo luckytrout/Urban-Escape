@@ -9,6 +9,7 @@ TagManager:
   - Collectable 1
   - EnemyTop
   - EnemySpikes
+  - Collectable 2
   layers:
   - Default
   - TransparentFX
