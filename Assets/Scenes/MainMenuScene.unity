@@ -423,8 +423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0911842b1b5fe3c4f911fe97db29baf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectLevelCanvas: {fileID: 0}
-  creditsCanvas: {fileID: 0}
+  selectLevelCanvas: {fileID: 1702654100}
+  creditsCanvas: {fileID: 616326922}
 --- !u!1 &126751450
 GameObject:
   m_ObjectHideFlags: 0
